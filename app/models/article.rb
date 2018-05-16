@@ -4,3 +4,5 @@ class Article < ApplicationRecord
 # ArticleUploader (we have created it above)
 mount_uploader :image, ArticleUploader
 end
+
+

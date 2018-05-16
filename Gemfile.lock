@@ -47,7 +47,7 @@ GEM
       activemodel (>= 4.0.0)
       activesupport (>= 4.0.0)
       mime-types (>= 1.16)
-    cloudinary (1.7.0)
+    cloudinary (1.9.1)
       aws_cf_signer
       rest-client
     coffee-rails (4.2.1)
@@ -58,7 +58,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
-    domain_name (0.5.20170404)
+    domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
     erubis (2.7.0)
     execjs (2.7.0)
@@ -130,7 +130,7 @@ GEM
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
-    rest-client (2.0.1)
+    rest-client (2.0.2)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
@@ -167,7 +167,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.7.4)
+    unf_ext (0.0.7.5)
     web-console (3.5.0)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -183,7 +183,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   carrierwave
-  cloudinary
+  cloudinary (~> 1.9, >= 1.9.1)
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
   jquery-rails
@@ -203,4 +203,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.14.6
+   1.16.1
