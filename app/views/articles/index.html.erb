@@ -1,6 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Articles</h1>
+<h2><%= link_to 'Delete all', delete_all_articles_path %></h2>
 
 <table>
   <thead>
@@ -25,7 +26,6 @@
     <% end %>
   </tbody>
 </table>
-
 <br>
 
 <%= link_to 'New Article', new_article_path %>

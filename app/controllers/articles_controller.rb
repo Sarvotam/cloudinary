@@ -21,6 +21,11 @@ class ArticlesController < ApplicationController
   def edit
   end
 
+  def delete_all
+    Article.delete_all
+    redirect_to root_path
+  end
+
   # POST /articles
   # POST /articles.json
   def create
