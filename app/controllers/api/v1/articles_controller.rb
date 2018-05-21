@@ -8,7 +8,7 @@ class Api::V1::ArticlesController < ApplicationController
     article = Article.new(article_params)
     article.remote_image_url = params[:image]
     article.save
-    render json: article
+    render json: {title: "success"}
   end
 
   def destroy
