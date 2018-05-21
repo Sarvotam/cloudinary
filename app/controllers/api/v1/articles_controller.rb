@@ -5,7 +5,9 @@ class Api::V1::ArticlesController < ApplicationController
   end
 
   def create
-    article = Article.create(article_params)
+    article = Article.new(article_params)
+    article.remote_image_url = params[:image]
+    article.save
     render json: article
   end
 

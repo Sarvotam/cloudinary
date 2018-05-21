@@ -22,7 +22,7 @@ include CarrierWave::RMagick
 
    # Allowed image format
    def extension_white_list
-        %w(jpg jpeg gif png)
+        %w(jpg jpeg gif xpng)
    end
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick

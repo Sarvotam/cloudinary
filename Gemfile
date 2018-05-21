@@ -11,6 +11,8 @@ gem 'rails', '~> 5.0.2'
 # Use sqlite3 as the database for Active Record
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
+gem 'bcrypt', '~> 3.1.7'
+gem 'jwt'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -22,6 +24,8 @@ gem 'coffee-rails', '~> 4.2'
 gem 'cloudinary', '~> 1.9', '>= 1.9.1'
 gem 'rmagick'
 gem 'carrierwave'
+
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

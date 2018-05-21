@@ -13,3 +13,12 @@ module Cloudinary
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+
+module ApiApp
+  class Application < Rails::Application
+    #.....
+    config.autoload_paths << Rails.root.join('lib')
+    #.....
+    end
+   end
