@@ -1,5 +1,5 @@
 class Api::V1::ArticlesController < ApplicationController
-  
+   before_action :authenticate_request! 
   def index
     render json: Article.all
   end

@@ -11,7 +11,7 @@ gem 'rails', '~> 5.0.2'
 # Use sqlite3 as the database for Active Record
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
-gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1', '>= 3.1.12'
 gem 'jwt'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
